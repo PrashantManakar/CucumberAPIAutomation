@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package TestDataType;
+
+/**
+ * @author prash
+ *
+ */
+public class NaceTestData {
+	private long order;
+    private long level;
+    private String code;
+    private String parent;
+    private String description;
+    private String thisItemIncludes;
+    private String thisItemAlsoIncludes;
+    private String rulings;
+    private String thisItemExcludes;
+    private String referenceToISICRev4;
+
+    public long getOrder() { return order; }
+    public void setOrder(long value) { this.order = value; }
+
+    public long getLevel() { return level; }
+    public void setLevel(long value) { this.level = value; }
+
+    public String getCode() { return code; }
+    public void setCode(String value) { this.code = value; }
+
+    public String getParent() { return parent; }
+    public void setParent(String value) { this.parent = value; }
+
+    public String getDescription() { return description; }
+    public void setDescription(String value) { this.description = value; }
+
+    public String getThisItemIncludes() { return thisItemIncludes; }
+    public void setThisItemIncludes(String value) { this.thisItemIncludes = value; }
+
+    public String getThisItemAlsoIncludes() { return thisItemAlsoIncludes; }
+    public void setThisItemAlsoIncludes(String value) { this.thisItemAlsoIncludes = value; }
+
+    public String getRulings() { return rulings; }
+    public void setRulings(String value) { this.rulings = value; }
+
+    public String getThisItemExcludes() { return thisItemExcludes; }
+    public void setThisItemExcludes(String value) { this.thisItemExcludes = value; }
+
+    public String getReferenceToISICRev4() { return referenceToISICRev4; }
+    public void setReferenceToISICRev4(String value) { this.referenceToISICRev4 = value; }
+
+}

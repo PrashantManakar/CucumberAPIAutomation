@@ -1,0 +1,1101 @@
+2022-05-05 19:52:26,326 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-05 19:54:49,466 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/CucumberTechTask/CucumberTechTask/0.0.1/CucumberTechTask-0.0.1.pom
+2022-05-05 19:54:49,473 [ModalContext] ERROR o.e.m.c.u.i.w.MavenProjectWizardArchetypePage - Can't resolve Archetype CucumberTechTask:CucumberTechTask:0.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact CucumberTechTask:CucumberTechTask:pom:0.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage.lambda$10(MavenProjectWizardArchetypePage.java:808)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-05 19:59:17,346 [Worker-32: Creating project "CucumberTechTask"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-05 19:59:17,606 [Worker-32: Creating project "CucumberTechTask"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-05 19:59:17,607 [Worker-32: Creating project "CucumberTechTask"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-05 19:59:17,608 [Worker-32: Creating project "CucumberTechTask"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-05 19:59:17,608 [Worker-32: Creating project "CucumberTechTask"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-05 19:59:18,196 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-05 19:59:18,200 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-05 19:59:18,202 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-05 19:59:18,203 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:50:23,329 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 10:50:23,952 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:50:23,953 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:50:23,956 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:50:23,957 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:50:25,962 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/velocity-tools/velocity-tools/1.4/velocity-tools-1.4-javadoc.jar
+2022-05-06 10:50:25,966 [Worker-38: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for velocity-tools:velocity-tools:1.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact velocity-tools:velocity-tools:jar:javadoc:1.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 10:50:57,406 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 10:50:57,690 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:50:57,691 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:50:57,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:50:57,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:52:26,276 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:52:26,276 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:52:26,277 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:52:26,278 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:53:00,448 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:53:00,450 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:53:00,450 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:53:00,451 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:09,008 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:09,008 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:09,009 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:09,010 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:22,379 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:22,379 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:22,380 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:22,380 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:47,888 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:47,888 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:54:47,889 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:54:47,889 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:55:33,854 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:55:33,855 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 10:55:33,856 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 10:55:33,856 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:00:12,121 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 11:00:12,470 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 11:00:12,775 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-06 11:00:12,776 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-06 11:00:12,786 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-06 11:00:12,787 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-06 11:00:12,997 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-05-06 11:00:13,391 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:00:13,392 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:00:13,393 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:00:13,394 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:00:28,461 [Worker-50: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 11:00:28,462 [Worker-50: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 11:00:51,106 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:00:51,107 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:00:51,108 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:00:51,108 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:03:31,054 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:03:31,055 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:03:31,056 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:03:31,056 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:05:31,541 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:05:31,541 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:05:31,541 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:05:31,541 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:05:54,311 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:05:54,312 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:05:54,312 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:05:54,312 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:14:58,849 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.2.0/maven-resources-plugin-3.2.0.jar
+2022-05-06 11:14:59,261 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.2.0/maven-resources-plugin-3.2.0.jar
+2022-05-06 11:14:59,795 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
+2022-05-06 11:15:00,009 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
+2022-05-06 11:15:00,222 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
+2022-05-06 11:15:00,445 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
+2022-05-06 11:15:00,659 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2022-05-06 11:15:00,881 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2022-05-06 11:15:01,094 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2022-05-06 11:15:01,318 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2022-05-06 11:15:01,529 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2022-05-06 11:15:01,749 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2022-05-06 11:15:01,967 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2022-05-06 11:15:02,187 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2022-05-06 11:15:02,396 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom
+2022-05-06 11:15:02,616 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom
+2022-05-06 11:15:02,829 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom
+2022-05-06 11:15:03,049 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom
+2022-05-06 11:15:03,256 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom
+2022-05-06 11:15:03,476 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom
+2022-05-06 11:15:03,709 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+2022-05-06 11:15:03,895 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar
+2022-05-06 11:15:03,916 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar
+2022-05-06 11:15:03,940 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+2022-05-06 11:15:04,102 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2022-05-06 11:15:04,360 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar
+2022-05-06 11:15:04,360 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+2022-05-06 11:15:04,360 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar
+2022-05-06 11:15:04,360 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2022-05-06 11:15:04,562 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+2022-05-06 11:15:09,844 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 11:15:09,891 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-java:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:09,893 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:15:09,922 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:09,923 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:10,271 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.2.0/maven-resources-plugin-3.2.0.pom
+2022-05-06 11:15:10,488 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.2.0/maven-resources-plugin-3.2.0.pom
+2022-05-06 11:15:10,700 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+2022-05-06 11:15:10,917 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+2022-05-06 11:15:11,019 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-java:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:11,020 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:15:11,040 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:11,041 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:11,134 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+2022-05-06 11:15:11,352 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+2022-05-06 11:15:11,560 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+2022-05-06 11:15:11,773 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+2022-05-06 11:15:11,828 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/info/cukes/cucumber-java/7.3.4/cucumber-java-7.3.4-sources.jar
+2022-05-06 11:15:11,830 [Worker-60: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for info.cukes:cucumber-java:7.3.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cucumber-java:jar:sources:7.3.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:15:11,991 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2022-05-06 11:15:12,208 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2022-05-06 11:15:12,420 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+2022-05-06 11:15:12,503 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/info/cukes/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6-sources.jar
+2022-05-06 11:15:12,506 [Worker-60: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for info.cukes:cucumber-jvm-deps:1.0.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cucumber-jvm-deps:jar:sources:1.0.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:15:12,637 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+2022-05-06 11:15:12,846 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+2022-05-06 11:15:13,067 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+2022-05-06 11:15:13,159 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java8/7.3.4/cucumber-java8-7.3.4-sources.jar
+2022-05-06 11:15:13,276 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+2022-05-06 11:15:13,494 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+2022-05-06 11:15:13,669 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java8/7.3.4/cucumber-java8-7.3.4-sources.jar
+2022-05-06 11:15:13,702 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+2022-05-06 11:15:13,918 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+2022-05-06 11:15:14,637 [Worker-60: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-java8:7.3.4
+2022-05-06 11:15:14,851 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+2022-05-06 11:15:15,063 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+2022-05-06 11:15:15,270 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+2022-05-06 11:15:15,478 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+2022-05-06 11:15:15,563 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/info/cukes/cucumber-testng/7.3.4/cucumber-testng-7.3.4-sources.jar
+2022-05-06 11:15:15,566 [Worker-60: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for info.cukes:cucumber-testng:7.3.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cucumber-testng:jar:sources:7.3.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:15:15,687 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+2022-05-06 11:15:15,898 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+2022-05-06 11:15:16,107 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+2022-05-06 11:15:16,326 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+2022-05-06 11:15:16,535 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+2022-05-06 11:15:16,566 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/7.3.4/cucumber-reporting-7.3.4-sources.jar
+2022-05-06 11:15:16,569 [Worker-60: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for net.masterthought:cucumber-reporting:7.3.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact net.masterthought:cucumber-reporting:jar:sources:7.3.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:15:16,744 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+2022-05-06 11:15:16,954 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+2022-05-06 11:15:17,166 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+2022-05-06 11:15:17,375 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+2022-05-06 11:15:17,585 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+2022-05-06 11:15:17,791 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+2022-05-06 11:15:18,001 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+2022-05-06 11:15:18,209 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+2022-05-06 11:15:18,427 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+2022-05-06 11:15:18,636 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+2022-05-06 11:15:18,847 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+2022-05-06 11:15:19,069 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.pom
+2022-05-06 11:15:19,279 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.pom
+2022-05-06 11:15:19,485 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.pom
+2022-05-06 11:15:19,694 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.pom
+2022-05-06 11:15:19,901 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.pom
+2022-05-06 11:15:20,113 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.pom
+2022-05-06 11:15:20,320 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.pom
+2022-05-06 11:15:20,530 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.pom
+2022-05-06 11:15:20,737 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2022-05-06 11:15:20,949 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+2022-05-06 11:15:21,163 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.pom
+2022-05-06 11:15:21,373 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.pom
+2022-05-06 11:15:21,582 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.pom
+2022-05-06 11:15:21,791 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.pom
+2022-05-06 11:15:22,003 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.pom
+2022-05-06 11:15:22,213 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.pom
+2022-05-06 11:15:22,423 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.pom
+2022-05-06 11:15:22,633 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.pom
+2022-05-06 11:15:22,849 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/0.9.0.M2/aether-0.9.0.M2.pom
+2022-05-06 11:15:23,059 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/0.9.0.M2/aether-0.9.0.M2.pom
+2022-05-06 11:15:23,268 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.pom
+2022-05-06 11:15:23,479 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.pom
+2022-05-06 11:15:23,687 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom
+2022-05-06 11:15:23,899 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom
+2022-05-06 11:15:24,107 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.pom
+2022-05-06 11:15:24,317 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.pom
+2022-05-06 11:15:24,527 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.pom
+2022-05-06 11:15:24,736 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.pom
+2022-05-06 11:15:24,950 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2022-05-06 11:15:25,160 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2022-05-06 11:15:25,369 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+2022-05-06 11:15:25,580 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+2022-05-06 11:15:25,789 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.2.0/maven-filtering-3.2.0.pom
+2022-05-06 11:15:25,998 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.2.0/maven-filtering-3.2.0.pom
+2022-05-06 11:15:26,206 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.pom
+2022-05-06 11:15:26,415 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.pom
+2022-05-06 11:15:26,625 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+2022-05-06 11:15:26,835 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+2022-05-06 11:15:27,043 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+2022-05-06 11:15:27,254 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+2022-05-06 11:15:27,468 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+2022-05-06 11:15:27,680 [Worker-58: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+2022-05-06 11:15:27,899 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar
+2022-05-06 11:15:27,899 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar
+2022-05-06 11:15:28,143 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar
+2022-05-06 11:15:28,143 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+2022-05-06 11:15:28,143 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+2022-05-06 11:15:28,182 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar
+2022-05-06 11:15:28,373 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar
+2022-05-06 11:15:28,576 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar
+2022-05-06 11:15:28,582 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+2022-05-06 11:15:28,582 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+2022-05-06 11:15:28,582 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar
+2022-05-06 11:15:28,777 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar
+2022-05-06 11:15:28,981 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar
+2022-05-06 11:15:28,983 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+2022-05-06 11:15:28,986 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar
+2022-05-06 11:15:28,990 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+2022-05-06 11:15:29,187 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar
+2022-05-06 11:15:29,190 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+2022-05-06 11:15:29,207 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+2022-05-06 11:15:29,207 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar
+2022-05-06 11:15:29,390 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+2022-05-06 11:15:29,394 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+2022-05-06 11:15:29,591 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+2022-05-06 11:15:29,591 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar
+2022-05-06 11:15:29,595 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+2022-05-06 11:15:29,624 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+2022-05-06 11:15:29,799 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+2022-05-06 11:15:29,808 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+2022-05-06 11:15:29,817 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar
+2022-05-06 11:15:29,835 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+2022-05-06 11:15:30,004 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+2022-05-06 11:15:30,023 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+2022-05-06 11:15:30,045 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+2022-05-06 11:15:30,046 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+2022-05-06 11:15:30,292 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+2022-05-06 11:15:30,316 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+2022-05-06 11:15:30,324 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2022-05-06 11:15:30,328 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+2022-05-06 11:15:30,509 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+2022-05-06 11:15:30,532 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+2022-05-06 11:15:30,537 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+2022-05-06 11:15:30,703 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.2.0/maven-filtering-3.2.0.jar
+2022-05-06 11:15:30,707 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2022-05-06 11:15:30,733 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.jar
+2022-05-06 11:15:30,740 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+2022-05-06 11:15:30,907 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+2022-05-06 11:15:30,942 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.2.0/maven-filtering-3.2.0.jar
+2022-05-06 11:15:31,118 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+2022-05-06 11:15:31,120 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.jar
+2022-05-06 11:15:31,146 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+2022-05-06 11:15:50,268 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:15:50,268 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:15:50,270 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:15:50,272 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:15:50,272 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:15:50,272 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:15:50,274 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 11:15:50,707 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 11:15:50,742 [Worker-62: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-java:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:50,743 [Worker-62: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:15:50,762 [Worker-62: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:50,763 [Worker-62: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:53,073 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-06 11:15:53,074 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-06 11:15:53,074 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-06 11:15:53,074 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-06 11:15:53,148 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-05-06 11:15:53,201 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-java:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:53,203 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:15:53,232 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:53,235 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:15:53,451 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:15:53,452 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:15:53,454 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:15:53,460 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:15:53,460 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:15:53,461 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:48:05,653 [Worker-67: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 11:48:05,654 [Worker-67: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-06 11:48:11,363 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:48:11,363 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:48:11,368 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:48:11,370 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:48:11,370 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:48:11,370 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:48:56,349 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 11:48:56,419 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:48:56,478 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:48:56,479 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:48:56,972 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:48:56,973 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:48:56,974 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:48:56,976 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:48:56,976 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:48:56,976 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:48:57,668 [Worker-72: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:48:57,696 [Worker-72: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:48:57,701 [Worker-72: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:48:58,839 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/info/cukes/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6-javadoc.jar
+2022-05-06 11:48:58,840 [Worker-72: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for info.cukes:cucumber-jvm-deps:1.0.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cucumber-jvm-deps:jar:javadoc:1.0.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:48:59,687 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/info/cukes/cucumber-testng/7.3.4/cucumber-testng-7.3.4-javadoc.jar
+2022-05-06 11:48:59,690 [Worker-72: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for info.cukes:cucumber-testng:7.3.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cucumber-testng:jar:javadoc:7.3.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:49:00,540 [Worker-72: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/7.3.4/cucumber-reporting-7.3.4-javadoc.jar
+2022-05-06 11:49:00,542 [Worker-72: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for net.masterthought:cucumber-reporting:7.3.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact net.masterthought:cucumber-reporting:jar:javadoc:7.3.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-05-06 11:49:15,442 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 11:49:15,674 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 11:49:15,709 [Worker-70: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:49:15,727 [Worker-70: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:49:15,729 [Worker-70: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:49:15,971 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-06 11:49:15,971 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-06 11:49:15,971 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-06 11:49:15,971 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-06 11:49:16,073 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-05-06 11:49:16,354 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-jvm-deps:jar:1.0.6 is missing, no dependency information available
+2022-05-06 11:49:16,405 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:49:16,406 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 11:49:16,430 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:49:16,430 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:49:16,431 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:49:16,434 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:49:16,434 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:49:16,434 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:50:08,457 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:50:08,458 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:50:08,458 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 11:50:08,464 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 11:50:08,464 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 11:50:08,465 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:00:45,796 [Worker-70: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 12:00:45,887 [Worker-70: Cleaning all projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 12:00:45,889 [Worker-70: Cleaning all projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 12:00:47,245 [Worker-72: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for info.cukes:cucumber-testng:jar:7.3.4 is missing, no dependency information available
+2022-05-06 12:00:47,247 [Worker-72: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for net.masterthought:cucumber-reporting:jar:7.3.4 is missing, no dependency information available
+2022-05-06 12:00:47,580 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:00:47,580 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:00:47,580 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:00:47,583 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:00:47,583 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:00:47,584 [Worker-72: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:02:49,540 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 12:02:49,764 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 12:02:50,301 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-06 12:02:50,301 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-06 12:02:50,302 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-06 12:02:50,302 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-06 12:02:50,628 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-05-06 12:02:52,204 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0-sources.jar
+2022-05-06 12:02:53,249 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0-sources.jar
+2022-05-06 12:02:54,317 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.masterthought:cucumber-reporting:5.7.0
+2022-05-06 12:02:55,064 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0-sources.jar
+2022-05-06 12:02:56,213 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0-sources.jar
+2022-05-06 12:02:57,262 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.13.0
+2022-05-06 12:02:58,190 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0-sources.jar
+2022-05-06 12:02:58,734 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0-sources.jar
+2022-05-06 12:02:59,349 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.13.0
+2022-05-06 12:03:00,021 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0-sources.jar
+2022-05-06 12:03:00,771 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0-sources.jar
+2022-05-06 12:03:01,830 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.13.0
+2022-05-06 12:03:02,639 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0-sources.jar
+2022-05-06 12:03:03,324 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0-sources.jar
+2022-05-06 12:03:03,856 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0
+2022-05-06 12:03:04,626 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3-sources.jar
+2022-05-06 12:03:05,498 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3-sources.jar
+2022-05-06 12:03:06,533 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.velocity:velocity-engine-core:2.3
+2022-05-06 12:03:07,197 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar
+2022-05-06 12:03:07,560 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar
+2022-05-06 12:03:07,951 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.30
+2022-05-06 12:03:08,622 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.10/joda-time-2.10.10-sources.jar
+2022-05-06 12:03:09,528 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.10/joda-time-2.10.10-sources.jar
+2022-05-06 12:03:10,582 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for joda-time:joda-time:2.10.10
+2022-05-06 12:03:11,305 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar
+2022-05-06 12:03:12,239 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar
+2022-05-06 12:03:13,265 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.12.0
+2022-05-06 12:03:13,937 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7-sources.jar
+2022-05-06 12:03:14,661 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.7/commons-io-2.7-sources.jar
+2022-05-06 12:03:15,721 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.7
+2022-05-06 12:03:16,378 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0-sources.jar
+2022-05-06 12:03:17,100 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0-sources.jar
+2022-05-06 12:03:18,096 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.codehaus.plexus:plexus-utils:3.3.0
+2022-05-06 12:03:19,079 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2-sources.jar
+2022-05-06 12:03:19,886 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2-sources.jar
+2022-05-06 12:03:20,342 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20211018.2
+2022-05-06 12:03:21,148 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10-sources.jar
+2022-05-06 12:03:22,023 [Worker-80: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10-sources.jar
+2022-05-06 12:03:23,085 [Worker-80: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-configuration:commons-configuration:1.10
+2022-05-06 12:04:43,526 [Worker-82: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 12:04:43,527 [Worker-82: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-06 12:05:15,944 [Worker-86: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 12:05:15,944 [Worker-86: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 12:13:24,843 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:13:24,843 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:13:24,844 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:13:24,846 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:13:24,846 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:13:24,846 [Worker-84: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:20:02,103 [Worker-89: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 12:20:03,243 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:20:03,243 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:20:03,243 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:20:03,245 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 12:20:03,245 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 12:20:03,245 [Worker-90: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 12:20:20,643 [Worker-89: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 12:20:20,643 [Worker-89: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-06 12:20:30,285 [Worker-89: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 12:20:30,285 [Worker-89: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 17:21:09,475 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-06 17:28:52,738 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-06 17:28:53,088 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-06 17:28:55,728 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4-sources.jar
+2022-05-06 17:28:56,493 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4-sources.jar
+2022-05-06 17:28:56,923 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-06 17:28:56,924 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-06 17:28:56,924 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-06 17:28:56,924 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-06 17:28:57,183 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-05-06 17:28:57,551 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-java:7.3.4
+2022-05-06 17:28:58,393 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4-sources.jar
+2022-05-06 17:28:58,808 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4-sources.jar
+2022-05-06 17:28:59,045 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-junit:7.3.4
+2022-05-06 17:28:59,877 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar
+2022-05-06 17:29:00,741 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar
+2022-05-06 17:29:01,809 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.13.2
+2022-05-06 17:29:15,579 [Worker-31: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:29:15,580 [Worker-31: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-06 17:29:25,572 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:29:25,572 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 17:29:59,179 [Worker-29: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:29:59,179 [Worker-29: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 17:30:44,366 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:30:44,366 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:30:44,369 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:30:44,371 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:30:44,371 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:30:44,371 [Worker-33: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:34:20,177 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:34:20,177 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 17:34:32,734 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:34:32,734 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:34:32,738 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:34:32,740 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:34:32,740 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:34:32,740 [Worker-3: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:36:33,743 [Worker-36: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:36:33,743 [Worker-36: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-06 17:36:43,597 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:36:43,597 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:36:43,598 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:36:43,599 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:36:43,599 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:36:43,599 [Worker-37: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:36:51,381 [Worker-40: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 17:36:51,382 [Worker-40: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-06 17:37:11,465 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:37:11,465 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:37:11,465 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 17:37:11,466 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 17:37:11,466 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 17:37:11,467 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 21:22:08,637 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 21:22:08,639 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 21:22:08,640 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 21:22:08,643 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-06 21:22:08,643 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-06 21:22:08,644 [Worker-37: Build project CucumberTechTask] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-06 22:23:28,427 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-06 22:26:32,098 [Worker-5: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-06 22:26:32,130 [Worker-5: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 03:53:05,841 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 03:53:05,841 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 03:53:05,848 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 03:53:05,854 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 03:53:05,854 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 03:53:05,855 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-07 04:30:40,994 [Worker-35: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:30:40,996 [Worker-35: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 04:30:49,824 [Worker-43: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:30:49,825 [Worker-43: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:32:42,928 [Worker-35: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:32:42,928 [Worker-35: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:33:53,371 [Worker-46: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:33:53,372 [Worker-46: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:35:46,567 [Worker-38: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:35:46,568 [Worker-38: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:36:58,330 [Worker-47: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:36:58,330 [Worker-47: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:38:41,845 [Worker-51: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:38:41,847 [Worker-51: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:40:21,038 [Worker-52: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:40:21,039 [Worker-52: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:42:21,076 [Worker-47: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:42:21,076 [Worker-47: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:43:23,345 [Worker-48: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:43:23,346 [Worker-48: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:44:29,239 [Worker-48: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 04:44:29,240 [Worker-48: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 04:45:15,203 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:45:15,203 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:45:15,265 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 04:45:15,269 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:45:15,269 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:45:15,272 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 04:50:50,243 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:50:50,243 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:50:50,244 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 04:50:50,247 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:50:50,247 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:50:50,247 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 04:52:09,271 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:52:09,271 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:52:09,272 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 04:52:09,274 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 04:52:09,274 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 04:52:09,274 [Worker-54: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:00:42,674 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:00:42,674 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:00:42,675 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:00:42,676 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:00:42,676 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:00:42,676 [Worker-61: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:02:41,462 [Worker-64: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 05:02:41,465 [Worker-64: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 05:03:50,091 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:03:50,091 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:03:50,092 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:03:50,093 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:03:50,093 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:03:50,093 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:13:05,273 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:13:05,273 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:13:05,274 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:13:05,275 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:13:05,275 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:13:05,276 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 05:14:28,314 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:14:28,314 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:14:28,315 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 05:14:28,317 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 05:14:28,317 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 05:14:28,317 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:02:56,655 [Worker-58: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 08:02:56,655 [Worker-58: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 08:02:56,655 [Worker-58: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-05-07 08:05:11,560 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:05:11,560 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:05:11,561 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:05:11,562 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:05:11,562 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:05:11,562 [Worker-73: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:08:01,804 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:08:01,804 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:08:01,804 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:08:01,805 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:08:01,805 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:08:01,805 [Worker-73: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 08:10:02,254 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:10:02,254 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:10:02,254 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:10:02,255 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:10:02,255 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:10:02,255 [Worker-72: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:11:34,807 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:11:34,808 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:11:34,808 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:11:34,809 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:11:34,809 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:11:34,809 [Worker-74: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:53:44,088 [Worker-71: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 08:53:44,089 [Worker-71: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 08:54:11,468 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:54:11,468 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:54:11,469 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:54:11,471 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:54:11,472 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:54:11,473 [Worker-80: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:59:48,772 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:59:48,773 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:59:48,773 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 08:59:48,774 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 08:59:48,774 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 08:59:48,774 [Worker-83: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 09:42:21,595 [Worker-101: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-07 09:42:21,969 [Worker-101: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 09:42:22,986 [Worker-101: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-07 09:42:22,987 [Worker-101: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-07 09:42:22,987 [Worker-101: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-07 09:42:22,987 [Worker-101: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-07 09:42:23,757 [Worker-101: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-05-07 09:42:34,218 [Worker-91: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 09:42:34,218 [Worker-91: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 09:42:41,989 [Worker-102: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 09:42:41,990 [Worker-102: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:37:04,225 [Worker-121: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:37:04,226 [Worker-121: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 13:37:11,257 [Worker-127: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:37:11,257 [Worker-127: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:37:43,427 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:37:43,427 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:37:43,428 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:37:43,430 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:37:43,430 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:37:43,430 [Worker-125: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 13:38:01,748 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:38:01,748 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:38:01,748 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:38:01,749 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:38:01,749 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:38:01,749 [Worker-124: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 13:38:41,166 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:38:41,166 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:38:41,166 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:38:41,167 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:38:41,167 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:38:41,167 [Worker-123: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 13:38:48,260 [Worker-123: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:38:48,260 [Worker-123: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:39:18,516 [Worker-126: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:39:18,517 [Worker-126: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 13:39:27,419 [Worker-126: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:39:27,419 [Worker-126: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:40:52,541 [Worker-123: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:40:52,541 [Worker-123: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:42:46,436 [Worker-125: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:42:46,436 [Worker-125: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 13:42:54,901 [Worker-130: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:42:54,902 [Worker-130: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:43:29,455 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:43:29,455 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:43:29,456 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:43:29,457 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:43:29,457 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:43:29,457 [Worker-132: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-07 13:43:39,143 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:43:39,143 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:43:39,143 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:43:39,144 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:43:39,144 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:43:39,144 [Worker-132: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 13:50:21,517 [Worker-131: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:50:21,517 [Worker-131: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 13:50:27,808 [Worker-134: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:50:27,808 [Worker-134: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:51:35,575 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:51:35,575 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:51:35,576 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:51:35,576 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:51:35,576 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:51:35,576 [Worker-138: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:51:59,302 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:51:59,302 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:51:59,302 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:51:59,303 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:51:59,303 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:51:59,303 [Worker-137: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:53:58,707 [Worker-139: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:53:58,707 [Worker-139: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 13:54:04,767 [Worker-140: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 13:54:04,767 [Worker-140: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 13:54:23,070 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 13:54:23,701 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:54:23,701 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:54:23,702 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 13:54:23,704 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 13:54:23,704 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-07 13:54:23,704 [Worker-131: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:26:23,484 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-07 15:26:33,947 [Worker-9: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:26:33,960 [Worker-9: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:31:50,094 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-07 15:31:50,438 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 15:31:51,146 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-07 15:31:51,147 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-07 15:31:51,147 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-07 15:31:51,147 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-07 15:31:51,387 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-05-07 15:32:02,369 [Worker-31: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:32:02,370 [Worker-31: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 15:32:14,057 [Worker-5: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:32:14,058 [Worker-5: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:32:58,510 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:32:58,510 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:34:47,549 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:34:47,549 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:35:17,184 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:35:17,184 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:37:45,816 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:37:45,816 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:38:03,662 [Worker-31: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 15:38:04,265 [Worker-31: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:38:04,266 [Worker-31: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:38:04,269 [Worker-31: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:38:04,272 [Worker-31: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:38:04,272 [Worker-31: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:38:04,273 [Worker-31: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 15:40:27,496 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:40:27,497 [Worker-31: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:40:50,296 [Worker-5: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:40:50,297 [Worker-5: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:40:50,299 [Worker-5: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:40:50,301 [Worker-5: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:40:50,301 [Worker-5: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:40:50,302 [Worker-5: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:42:56,025 [Worker-34: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:42:56,026 [Worker-34: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 15:43:05,735 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:43:05,736 [Worker-34: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:43:23,492 [Worker-30: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:43:23,493 [Worker-30: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:43:23,495 [Worker-30: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:43:23,496 [Worker-30: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:43:23,497 [Worker-30: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:43:23,498 [Worker-30: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 15:45:48,570 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:45:48,570 [Worker-30: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:46:02,677 [Worker-41: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:46:02,678 [Worker-41: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:46:02,678 [Worker-41: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:46:02,679 [Worker-41: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:46:02,680 [Worker-41: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:46:02,680 [Worker-41: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:47:02,793 [Worker-42: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:47:02,794 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:47:02,794 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:47:02,795 [Worker-42: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:47:02,796 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:47:02,796 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:47:12,074 [Worker-42: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:47:12,074 [Worker-42: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 15:47:21,715 [Worker-36: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:47:21,716 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:47:21,716 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:47:21,717 [Worker-36: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:47:21,717 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:47:21,718 [Worker-36: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:48:00,194 [Worker-42: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:48:00,195 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:48:00,196 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:48:00,196 [Worker-42: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 15:48:00,197 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 15:48:00,197 [Worker-42: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 15:54:58,934 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-07 15:54:59,129 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 15:55:01,580 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-path/5.0.1/json-path-5.0.1-sources.jar
+2022-05-07 15:55:01,906 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-path/5.0.1/json-path-5.0.1-sources.jar
+2022-05-07 15:55:02,396 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:json-path:5.0.1
+2022-05-07 15:55:03,062 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1-sources.jar
+2022-05-07 15:55:03,463 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1-sources.jar
+2022-05-07 15:55:04,077 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.groovy:groovy-json:4.0.1
+2022-05-07 15:55:04,733 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/groovy/groovy/4.0.1/groovy-4.0.1-sources.jar
+2022-05-07 15:55:05,958 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/groovy/groovy/4.0.1/groovy-4.0.1-sources.jar
+2022-05-07 15:55:06,985 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.groovy:groovy:4.0.1
+2022-05-07 15:55:07,786 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-common/5.0.1/rest-assured-common-5.0.1-sources.jar
+2022-05-07 15:55:08,016 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-common/5.0.1/rest-assured-common-5.0.1-sources.jar
+2022-05-07 15:55:08,315 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:rest-assured-common:5.0.1
+2022-05-07 15:55:08,970 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/5.0.1/xml-path-5.0.1-sources.jar
+2022-05-07 15:55:09,291 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/5.0.1/xml-path-5.0.1-sources.jar
+2022-05-07 15:55:09,605 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:xml-path:5.0.1
+2022-05-07 15:55:10,316 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1-sources.jar
+2022-05-07 15:55:10,744 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1-sources.jar
+2022-05-07 15:55:11,186 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.groovy:groovy-xml:4.0.1
+2022-05-07 15:55:11,840 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar
+2022-05-07 15:55:12,906 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar
+2022-05-07 15:55:13,949 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.11
+2022-05-07 15:55:14,793 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/5.0.1/json-schema-validator-5.0.1-sources.jar
+2022-05-07 15:55:15,208 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/5.0.1/json-schema-validator-5.0.1-sources.jar
+2022-05-07 15:55:15,295 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:json-schema-validator:5.0.1
+2022-05-07 15:55:16,152 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar
+2022-05-07 15:55:16,701 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar
+2022-05-07 15:55:17,155 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-07 15:55:17,156 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-07 15:55:17,161 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-07 15:55:17,161 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-07 15:55:17,354 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 18 sec
+2022-05-07 15:55:17,764 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:json-schema-validator:2.2.14
+2022-05-07 15:55:18,479 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0-sources.jar
+2022-05-07 15:55:18,829 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0-sources.jar
+2022-05-07 15:55:18,895 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:jackson-coreutils-equivalence:1.0
+2022-05-07 15:55:19,543 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0-sources.jar
+2022-05-07 15:55:19,861 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0-sources.jar
+2022-05-07 15:55:20,070 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:jackson-coreutils:2.0
+2022-05-07 15:55:20,731 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2-sources.jar
+2022-05-07 15:55:21,057 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2-sources.jar
+2022-05-07 15:55:21,291 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:msg-simple:1.2
+2022-05-07 15:55:22,005 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/btf/1.3/btf-1.3-sources.jar
+2022-05-07 15:55:22,357 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/btf/1.3/btf-1.3-sources.jar
+2022-05-07 15:55:22,484 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:btf:1.3
+2022-05-07 15:55:23,319 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14-sources.jar
+2022-05-07 15:55:24,016 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14-sources.jar
+2022-05-07 15:55:24,985 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:json-schema-core:1.2.14
+2022-05-07 15:55:25,645 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/java-json-tools/uri-template/0.10/uri-template-0.10-sources.jar
+2022-05-07 15:55:25,989 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/java-json-tools/uri-template/0.10/uri-template-0.10-sources.jar
+2022-05-07 15:55:26,314 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.java-json-tools:uri-template:0.10
+2022-05-07 15:55:26,978 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2-sources.jar
+2022-05-07 15:55:27,863 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2-sources.jar
+2022-05-07 15:55:28,906 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mozilla:rhino:1.7.7.2
+2022-05-07 15:55:29,786 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2-sources.jar
+2022-05-07 15:55:30,756 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2-sources.jar
+2022-05-07 15:55:31,814 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:mailapi:1.6.2
+2022-05-07 15:55:32,550 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1-sources.jar
+2022-05-07 15:55:33,324 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1-sources.jar
+2022-05-07 15:55:34,364 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.libphonenumber:libphonenumber:8.11.1
+2022-05-07 15:55:35,073 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar
+2022-05-07 15:55:35,523 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar
+2022-05-07 15:55:35,939 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.jopt-simple:jopt-simple:5.0.4
+2022-05-07 15:55:36,880 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-all/5.0.1/rest-assured-all-5.0.1-sources.jar
+2022-05-07 15:55:37,205 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-all/5.0.1/rest-assured-all-5.0.1-sources.jar
+2022-05-07 15:55:37,282 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:rest-assured-all:5.0.1
+2022-05-07 15:55:37,984 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/5.0.1/rest-assured-5.0.1-sources.jar
+2022-05-07 15:55:38,692 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/5.0.1/rest-assured-5.0.1-sources.jar
+2022-05-07 15:55:39,724 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:rest-assured:5.0.1
+2022-05-07 15:55:40,394 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar
+2022-05-07 15:55:41,257 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar
+2022-05-07 15:55:42,291 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.13
+2022-05-07 15:55:43,115 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar
+2022-05-07 15:55:44,002 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar
+2022-05-07 15:55:45,026 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.13
+2022-05-07 15:55:45,686 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-sources.jar
+2022-05-07 15:55:46,017 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-sources.jar
+2022-05-07 15:55:46,264 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpmime:4.5.13
+2022-05-07 15:55:46,929 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar
+2022-05-07 15:55:48,062 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar
+2022-05-07 15:55:49,115 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:31.1-jre
+2022-05-07 15:55:49,769 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
+2022-05-07 15:55:50,092 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
+2022-05-07 15:55:50,365 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.2
+2022-05-07 15:55:51,101 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-sources.jar
+2022-05-07 15:55:51,453 [Worker-36: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-sources.jar
+2022-05-07 15:55:51,706 [Worker-36: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.errorprone:error_prone_annotations:2.11.0
+2022-05-07 15:56:24,901 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-07 15:56:25,068 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 15:56:25,446 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/main/java
+2022-05-07 15:56:25,447 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/main/resources
+2022-05-07 15:56:25,447 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberTechTask/src/test/java
+2022-05-07 15:56:25,447 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberTechTask/src/test/resources
+2022-05-07 15:56:25,556 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-05-07 15:56:52,829 [Worker-46: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 15:56:52,829 [Worker-46: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-07 16:01:59,674 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CucumberTechTask:CucumberTechTask:0.0.1-SNAPSHOT @ C:\Users\prash\LUXOFTTESTNG\CucumberTechTask\pom.xml.
+2022-05-07 16:02:00,064 [Worker-47: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 16:02:00,064 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 16:02:00,065 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-07 16:02:00,067 [Worker-47: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-07 16:02:00,068 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-07 16:02:00,068 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-07 16:07:15,715 [Worker-52: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 16:07:15,715 [Worker-52: Launching Executing clean in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B clean
+2022-05-07 16:07:23,048 [Worker-51: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-07 16:07:23,048 [Worker-51: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-11 16:53:57,658 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-11 17:02:55,977 [Worker-4: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-11 17:02:55,988 [Worker-4: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-11 17:09:56,257 [Worker-35: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-11 17:09:56,258 [Worker-35: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-12 11:45:48,548 [Worker-43: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\prash\LUXOFTTESTNG\CucumberTechTask
+2022-05-12 11:45:48,550 [Worker-43: Launching Executing test in C__Users_prash_LUXOFTTESTNG_CucumberTechTask] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PCucumbertechTask -B test
+2022-05-12 11:49:36,179 [Worker-47: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 11:49:36,182 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 11:49:36,186 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 11:49:36,189 [Worker-47: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 11:49:36,190 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 11:49:36,191 [Worker-47: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-12 11:51:57,551 [Worker-49: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 11:51:57,553 [Worker-49: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 11:51:57,558 [Worker-49: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 11:51:57,560 [Worker-49: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 11:51:57,561 [Worker-49: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 11:51:57,561 [Worker-49: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:00:49,990 [Worker-57: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:00:49,992 [Worker-57: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:00:49,992 [Worker-57: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:00:49,995 [Worker-57: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:00:49,996 [Worker-57: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:00:49,996 [Worker-57: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:01:43,747 [Worker-52: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:01:43,749 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:01:43,749 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:01:43,750 [Worker-52: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:01:43,751 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:01:43,751 [Worker-52: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:04:08,337 [Worker-55: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:04:08,338 [Worker-55: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:04:08,339 [Worker-55: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:04:08,341 [Worker-55: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:04:08,342 [Worker-55: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:04:08,342 [Worker-55: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:15:53,190 [Worker-60: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:15:53,192 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:15:53,193 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:15:53,195 [Worker-60: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:15:53,197 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:15:53,197 [Worker-60: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:18:21,420 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:18:21,422 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:18:21,423 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:18:21,424 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:18:21,425 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:18:21,426 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:23:35,413 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:23:35,415 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:23:35,416 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:23:35,420 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:23:35,421 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:23:35,421 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:30:04,276 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:30:04,277 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:30:04,278 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:30:04,280 [Worker-50: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:30:04,281 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:30:04,281 [Worker-50: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:32:00,855 [Worker-68: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:32:00,857 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:32:00,858 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:32:00,861 [Worker-68: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:32:00,863 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:32:00,863 [Worker-68: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:39:09,594 [Worker-67: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:39:09,596 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:39:09,596 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:39:09,597 [Worker-67: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:39:09,598 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:39:09,598 [Worker-67: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:41:02,454 [Worker-71: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:41:02,456 [Worker-71: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:41:02,457 [Worker-71: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 12:41:02,459 [Worker-71: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 12:41:02,461 [Worker-71: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 12:41:02,461 [Worker-71: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 15:15:30,065 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-12 17:16:09,391 [Worker-37: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 17:16:09,404 [Worker-37: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 17:16:09,408 [Worker-37: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 17:16:09,410 [Worker-37: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 17:16:09,411 [Worker-37: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 17:16:09,411 [Worker-37: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-05-12 17:17:12,550 [Worker-38: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 17:17:12,553 [Worker-38: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 17:17:12,561 [Worker-38: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-12 17:17:12,566 [Worker-38: Launching CucumberTechTask_testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-12 17:17:12,568 [Worker-38: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'null' encoding to copy filtered properties files.
+2022-05-12 17:17:12,569 [Worker-38: Launching CucumberTechTask_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

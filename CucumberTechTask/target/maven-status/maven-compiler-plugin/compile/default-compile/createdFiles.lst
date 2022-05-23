@@ -1,0 +1,9 @@
+com\api\manager\FileReaderManager.class
+com\api\dataProvider\ConfigFileReader.class
+com\api\dataProvider\JsonDataReader.class
+com\api\myRunner\TestRunner.class
+com\api\constants\ApplicationVariables.class
+com\api\testDataType\NaceTestData.class
+com\api\utility\ResponseExtractionUtility.class
+stepDefinitions\GetNaceDetailsDefinition.class
+com\api\constants\Endpoints.class

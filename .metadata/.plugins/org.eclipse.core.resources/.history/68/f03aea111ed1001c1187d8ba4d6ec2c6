@@ -1,0 +1,4 @@
+environment=local
+url=https://5ebe0587-3002-4840-80bd-93aa816a507a.mock.pstmn.io/
+port=8080
+testDataResourcePath=src/test/resources/testDataResource/

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T11:47:14Z" name="BDD Test Suite" finished-at="2022-05-12T11:47:30Z" duration-ms="16561">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" name="feature" class="com.api.myRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-12T11:47:14Z" name="CucumberTeckTask" finished-at="2022-05-12T11:47:30Z" duration-ms="16561">
+      <class name="com.api.myRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:14Z" name="setUpClass" finished-at="2022-05-12T11:47:14Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:14Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-12T11:47:18Z" duration-ms="4043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user,I can retrive Nace Details by using order details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I can verify the proper respose from API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:18Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-12T11:47:20Z" duration-ms="2292" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user,I can retrive Nace Details by using order details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I can verify the proper respose from API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[398482Is not matching with 398481 expected [398482] but found [398481]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 398482Is not matching with 398481 expected [398482] but found [398481]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at stepDefinitions.GetNaceDetailsDefinition.verify_nace_details_are_as_per(GetNaceDetailsDefinition.java:60)
+at ✽.verify NaceDetails are as per "398482"(file:///C:/Users/prash/LUXOFTTESTNG/CucumberTechTask/src/main/java/Features/getNaceDetails.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:20Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-12T11:47:27Z" duration-ms="7093" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user,I can retrive Nace Details by using order details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I can verify the proper respose from API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[398483Is not matching with 398481 expected [398483] but found [398481]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 398483Is not matching with 398481 expected [398483] but found [398481]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at stepDefinitions.GetNaceDetailsDefinition.verify_nace_details_are_as_per(GetNaceDetailsDefinition.java:60)
+at ✽.verify NaceDetails are as per "398483"(file:///C:/Users/prash/LUXOFTTESTNG/CucumberTechTask/src/main/java/Features/getNaceDetails.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:27Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-12T11:47:29Z" duration-ms="1366" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user,I can retrive Nace Details by using order details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I can verify the proper respose from API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[398484Is not matching with 398481 expected [398484] but found [398481]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 398484Is not matching with 398481 expected [398484] but found [398481]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at stepDefinitions.GetNaceDetailsDefinition.verify_nace_details_are_as_per(GetNaceDetailsDefinition.java:60)
+at ✽.verify NaceDetails are as per "398484"(file:///C:/Users/prash/LUXOFTTESTNG/CucumberTechTask/src/main/java/Features/getNaceDetails.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-12T11:47:30Z" duration-ms="1255" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user,I can retrive Nace Details by using order details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a user, I can verify the proper respose from API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[398485Is not matching with 398481 expected [398485] but found [398481]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 398485Is not matching with 398481 expected [398485] but found [398481]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at stepDefinitions.GetNaceDetailsDefinition.verify_nace_details_are_as_per(GetNaceDetailsDefinition.java:60)
+at ✽.verify NaceDetails are as per "398485"(file:///C:/Users/prash/LUXOFTTESTNG/CucumberTechTask/src/main/java/Features/getNaceDetails.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.api.myRunner.TestRunner@673fdbce]" started-at="2022-05-12T11:47:30Z" name="tearDownClass" finished-at="2022-05-12T11:47:30Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.api.myRunner.TestRunner -->
+    </test> <!-- CucumberTeckTask -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
